@@ -10,6 +10,13 @@ It has been two decades and some years since the birth of the internet, and the 
 `npm run build`
 
 then it would build files into /dist folder which is what you deploy to prod
-
+`cd dist`
 `git checkout prod`
+`git add .`
+`git commit -m"your message"`
+
+`git push linktree prod`
+
+then you would be able to see what you did live at:
+https://{yourorginisationname}/nextgen.chapter.1/
 
